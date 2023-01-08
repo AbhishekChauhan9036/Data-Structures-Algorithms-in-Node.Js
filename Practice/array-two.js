@@ -3,7 +3,7 @@
 const arr=[12,88,09,89];
 const arr2=[10,20,30,40];
 
-const ans=arr.concat(arr2);
+const ans=arr.concat(arr2);     //time complexity- 
 console.log(ans);
 
 const arr3=arr.slice(1);
@@ -28,4 +28,6 @@ console.log(arr);
 
 arr.unshift(65);
 console.log(arr);
+
+
 
