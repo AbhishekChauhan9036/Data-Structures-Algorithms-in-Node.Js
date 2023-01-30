@@ -22,6 +22,8 @@ const isPrime = (n) => {
   return ans;
 };
 
+
+
 process.stdout.write(`${primeNumber(5)}\n`);
 process.stdout.write(`${primeNumber(6)}\n`);
 process.stdout.write(`${isPrime(9)}\n`);
