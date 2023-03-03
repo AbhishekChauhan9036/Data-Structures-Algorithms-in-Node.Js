@@ -1,0 +1,58 @@
+https://docs.google.com/document/d/1dWdO9C6yqwbnmbay5RMR0Z-iMwHKB3bacFL4ioxZRlI/edit
+https://docs.google.com/document/d/1j_KyUdlbZEC23-nwXjZhlnifWuooGD4CsibpIKzTHLY/edit
+
+Time Complexity , Space Complexity & BigO ➖
+
+What do you mean by Time & Space Complexity?
+Difference between Time & Space Complexity?
+What do you mean by BigO notation?
+What is the Worst Case vs Best case vs average case?  
+Explain the difference between O(1) vs O(n) space complexities 
+Provide an example of O(1) algorithm   
+
+
+Practice questions on Compleixeity:- https://docs.google.com/document/d/1j_KyUdlbZEC23-nwXjZhlnifWuooGD4CsibpIKzTHLY/edit?usp=sharing
+
+
+
+
+
+Find Time complexity of following algorithm with proper explanation:- 
+
+
+a).  let a = 0, b = 0;
+for (i = 0; i < N; i++) {
+    a = a + Math.random();
+}
+for (j = 0; j < M; j++) {
+    b = b + Math.random();
+}
+ 
+
+
+b). let a = 0;
+for (i = 0; i < N; i++) {
+    for (j = N; j > i; j--) {
+        a = a + i + j;
+    }
+}
+
+
+
+c).let i=0, j=0, k = 0;
+for (i = Math.floor(n / 2); i <= n; i++) {
+    for (j = 2; j <= n; j = j * 2) {
+        k = k + Math.floor(n / 2);
+    }
+
+
+d).let a = 0, i = N;
+while (i > 0) {
+    a += i;
+    i = Math.floor(i/2);
+}
+
+
+
+e).for(var i=0;i<n;i++)
+    i*=k
