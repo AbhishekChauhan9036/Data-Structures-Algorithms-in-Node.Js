@@ -1,0 +1,39 @@
+https://docs.google.com/document/d/17nY6M_zDSCeTRsuPKTgCqKDB5UOcBV4GxMcTPASsvVg/edit
+https://docs.google.com/document/d/18wzRCyFHZgscsF2WJ3fUKvZonQEHqB5zTnja3hCcxTs/edit
+
+Multiple Pointer Method
+
+What is a two pointer method?
+How do you declare multiple pointers?
+
+Practice questions on Multiple Pointer Method:-
+
+Remove Duplicates from Sorted Array 
+Two Sum II - Input array is sorted
+.Rotate Array  :- Reference Material
+Container With Most Water
+Product of Array Except Self
+
+
+
+
+
+Solve these problems on VSCode
+
+Q1 Given two sorted arrays and a number x, find the pair whose sum is closest to x and the pair has an element from each array. 
+a).
+Input:  ar1[] = {1, 4, 5, 7};
+        ar2[] = {10, 20, 30, 40};
+        x = 32      
+Output:  1 and 30
+
+b).
+Input: arr[] = {10, 22, 28, 29, 30, 40}, x = 54
+
+Output: 22 and 30
+
+Q2.Given an array of distinct elements. The task is to find triplets in the array whose sum is zero.
+Input:  arr[] = {0, -1, 2, -3, 1}
+Output:  (0 -1 1), (2 -3 1)
+ Explanation: The triplets with zero sum are 0 + -1 + 1 = 0 and 2 + -3 + 1 = 0  
+
