@@ -15,8 +15,7 @@ function merge(leftArr, rightArr) {
         sortedArr.push(rightArr.shift());
       }
     }
-    const ans = [...sortedArr, ...leftArr, ...rightArr];
-    return ans;
+    return [...sortedArr, ...leftArr, ...rightArr];
   }
   
 const arr = [80, 200, -20, 15, 40, -16];
