@@ -1,3 +1,9 @@
+/*Q1. Find the largest three distinct elements in an array
+
+Input: arr[] = {10, 4, 3, 50, 23, 90}
+Output: 90, 50, 23*/
+
+
 function Solve(arr, n) {
   let third = arr[0],second = arr[0],first = arr[0];
   for (let i = 0; i < n; i++) {
