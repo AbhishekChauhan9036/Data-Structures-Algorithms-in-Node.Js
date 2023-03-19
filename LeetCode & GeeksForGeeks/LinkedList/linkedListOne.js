@@ -38,7 +38,7 @@ class LinkedList {
     //Remove First ............................................
     removeFirst() {
         if (this.head == null) {
-            process.stdout.write("Empty List, nothing to delete");
+            process.stdout.write(`Empty List, nothing to delete`);
             return;
         }
         this.head = this.head.next;
@@ -47,7 +47,7 @@ class LinkedList {
     //Remove Last..............................................
     removeLast() {
         if (this.head == null) {
-            process.stdout.write("Empty List, nothing to delete");
+            process.stdout.write(`Empty List, nothing to delete`);
             return;
         }
         if (this.head.next == null) {
