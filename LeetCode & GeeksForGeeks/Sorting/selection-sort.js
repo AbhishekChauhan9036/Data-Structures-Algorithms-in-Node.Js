@@ -1,5 +1,5 @@
 function selectionSort(arr, n) {
-    var i, j, min_idx;
+    var i, j, idx;
     for (i = 0; i < n - 1; i++) {
         idx = i;
         for (j = i + 1; j < n; j++)
