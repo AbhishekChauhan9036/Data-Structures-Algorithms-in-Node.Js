@@ -11,5 +11,5 @@ var frequencySort = function(s) {
 
 
 
-// T.C-O(N)
+// T.C-O(N log N)
 // S.C-O(N)
