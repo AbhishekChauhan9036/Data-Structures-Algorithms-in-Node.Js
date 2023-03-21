@@ -1,0 +1,22 @@
+https://docs.google.com/document/d/1_khlv66_3DTmKyunksa46R1KftnBtpq4Y8Q_aOfGzwU/edit
+
+
+Lists:-
+1. What do you mean by Linked List? How many types of Linked list ? Explain.
+2. Write space & time complexity of linked list   ?
+3. Differentiate between Singly & Doubly linked lists ?
+4. Write an algorithm for the Singly & Doubly linked list by taking an example by yourself.
+Practice Problem:-
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+https://leetcode.com/problems/linked-list-cycle/
+Remove Linked List Elements
+Linked List Cycle
+Palindrome Linked List
+Merge Two Sorted Lists
+Rotate List
+Remove Nth Node From End of List
+https://leetcode.com/problems/add-two-numbers
+https://leetcode.com/problems/reverse-linked-list
+
+
