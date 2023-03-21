@@ -77,6 +77,7 @@ class LinkedList {
         }
         return removedNode.value;
     }
+
     //Remove elemnt at Last Position......................................
     removeLast() {
         if (this.head == null) {
@@ -112,5 +113,7 @@ l1.addLast(30);
 l1.addFirst(10);
 l1.addFirst(20);
 l1.addAtPosition(0, 50);
-l1.removeAtPosition(2);
+// l1.removeAtPosition(2);
+// l1.removeFirst();
+// l1.removeLast();
 l1.print();
