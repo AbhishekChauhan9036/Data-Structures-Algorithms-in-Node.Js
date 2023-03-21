@@ -24,4 +24,4 @@ class Solution {
 }
 
 
-//T.C-O(log n)
+//T.C-O(N)
