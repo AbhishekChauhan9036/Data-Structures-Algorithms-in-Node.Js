@@ -96,27 +96,27 @@ class BinarySearchTree {
         return root;
     }
 
-    inOrder(root) {
-        if (root) {
+    inOrder(root=this.root) {
+        if (root!=null) {
             this.inOrder(root.left);
-            console.log(root.value);
+            process.stdout.write(`${root.value} `);
             this.inOrder(root.right);
         }
     }
 
-    preOrder(root) {
+    preOrder(root=this.root) {
         if (root) {
-            console.log(root.value);
+            process.stdout.write(`${root.value} `);
             this.preOrder(root.left);
             this.preOrder(root.right);
         }
     }
 
-    postOrder(root) {
+    postOrder(root=this.root) {
         if (root) {
             this.postOrder(root.left);
             this.postOrder(root.right);
-            console.log(root.value);
+            process.stdout.write(`${root.value} `);
         }
     }
 
@@ -176,7 +176,6 @@ class BinarySearchTree {
 // TODO level order and delete
 
 const bst = new BinarySearchTree();
-console.log(bst.isEmpty());
 bst.insert(10);
 bst.insert(5);
 bst.insert(15);
@@ -185,13 +184,25 @@ bst.insert(7);
 bst.insert(13);
 bst.insert(17);
 bst.insert(2);
-console.log(bst.search(bst.root, 10));
-console.log(bst.search(bst.root, 7));
-bst.inOrder();
-bst.preOrder();
+// console.log(bst.search(bst.root, 10));
+// console.log(bst.search(bst.root, 7));
+
+
+
+// bst.inOrder();
+// console.log();
+
+// bst.preOrder();
+// console.log();
+
 bst.postOrder();
-bst.levelOrder();
-bst.printLevel(bst.root, 3);
-console.log(bst.min());
-console.log(bst.max());
-console.log(bst.height(bst.root));
+console.log();
+
+
+
+// bst.levelOrder();
+// bst.printLevel(bst.root,2);
+// console.log(bst.min());
+// console.log(bst.max());
+// console.log(bst.isEmpty());
+// console.log(bst.height(bst.root));
